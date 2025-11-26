@@ -1,16 +1,22 @@
 import './App.css';
 /* import Greet from './Components/Greet.js';
 import Welcome from './Components/Welcome.js';
-// import {Hello} from './Components/Hello.js';
+import {Hello} from './Components/Hello.js';
 import H from './Components/Hello.js'; 
-import Message from './Components/Message.js';*/
+import Message from './Components/Message.js';
 import Counter from './Components/Counter.js';
+import Functionclick from './Components/Functionclick.js';
+import Classclick from './Components/Classclick.js'; */
+import Eventbnd from './Components/Eventbind.js';
 
 
 function App() {
   return (
     <div className="App">      
-      <Counter />
+      {/* <Functionclick />
+      <Classclick /> */}
+
+      <Eventbnd />
     </div>
   );
 }
