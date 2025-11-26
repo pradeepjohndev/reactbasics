@@ -6,17 +6,21 @@ import H from './Components/Hello.js';
 import Message from './Components/Message.js';
 import Counter from './Components/Counter.js';
 import Functionclick from './Components/Functionclick.js';
-import Classclick from './Components/Classclick.js'; */
+import Classclick from './Components/Classclick.js'; 
 import Eventbnd from './Components/Eventbind.js';
+import Task from './Components/Task.js';*/
+import Methodprops from './Components/Methodprops.js';
 
 
 function App() {
   return (
     <div className="App">      
       {/* <Functionclick />
-      <Classclick /> */}
-
+      <Classclick /> 
       <Eventbnd />
+      <Task />*/}
+
+      <Methodprops />
     </div>
   );
 }
