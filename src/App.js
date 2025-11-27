@@ -8,9 +8,10 @@ import Counter from './Components/Counter.js';
 import Functionclick from './Components/Functionclick.js';
 import Classclick from './Components/Classclick.js'; 
 import Eventbnd from './Components/Eventbind.js';
-import Task from './Components/Task.js';*/
-import Methodprops from './Components/Methodprops.js';
-
+import Task from './Components/Task.js';
+import Methodprops from './Components/Methodprops.js';*/
+import Usergreeting from './Components/Usergreeting.js';
+import Namelist from './Components/Name.js'
 
 function App() {
   return (
@@ -18,9 +19,12 @@ function App() {
       {/* <Functionclick />
       <Classclick /> 
       <Eventbnd />
-      <Task />*/}
+      <Task />
 
-      <Methodprops />
+      <Methodprops />*/}
+
+      <Usergreeting />
+      <Namelist />
     </div>
   );
 }
